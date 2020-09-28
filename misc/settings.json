@@ -1,0 +1,27 @@
+{
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80
+    },
+    "[yaml]": {
+        "editor.autoIndent": "advanced",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Consolas, monospace",
+    "editor.fontSize": 15,
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": true,
+    "extensions.ignoreRecommendations": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "mdmath.delimiters": "brackets",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.startupEditor": "newUntitledFile"
+}
