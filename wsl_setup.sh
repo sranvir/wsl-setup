@@ -21,7 +21,7 @@ echo "echo \"$USER ALL=(ALL) NOPASSWD:ALL\" >> /etc/sudoers" | sudo bash
 
 ## Ubuntu Specific stuff
 sudo apt update -y
-sudo apt purge show-motd update-motd snapd openssh-client openssh-server git
+sudo apt purge show-motd update-motd snapd openssh-client openssh-server git -y
 sudo apt autoremove --purge -y
 
 sudo apt upgrade -y
