@@ -10,22 +10,21 @@ fi
 
 sudo cp ./snippets/wslconfig /mnt/c/Users/r/.wslconfig
 sudo cp ./snippets/wsl.conf /etc/wsl.conf
+sudo chmod 400 /etc/wsl.conf
 sudo rm /etc/resolv.conf
-sudo cp ./snippets/resolv.conf /etc/resolv.conf
+echo "echo \"nameserver 1.1.1.1\" > /etc/resolv.conf" | sudo bash
 ## WSL 2 Specific things end here
 
 cat ./snippets/bashrc_partials >> ~/.bashrc
-cp ./snippets/vimrc ~/.vimrc
 sed -i 's/HOME\/bin/HOME\/.bin/g' ~/.profile
 echo "echo \"$USER ALL=(ALL) NOPASSWD:ALL\" >> /etc/sudoers" | sudo bash
 
 ## Ubuntu Specific stuff
 sudo apt update -y
-sudo apt purge show-motd update-motd snapd openssh-client openssh-server git -y
+sudo apt purge show-motd update-motd snapd openssh-client openssh-server -y
 sudo apt autoremove --purge -y
 
 sudo apt upgrade -y
-sudo add-apt-repository ppa:git-core/ppa -y
 sudo apt autoremove --purge -y
 sudo apt install curl wget rsync vim openssh-client git man-db -y
 sudo apt autoremove --purge -y
