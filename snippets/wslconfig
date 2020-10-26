@@ -1,3 +1,4 @@
 [wsl2]
+processors=6
 memory=16GB
 swap=0
