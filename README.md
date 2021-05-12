@@ -1,3 +1,4 @@
+# This project is archived and I maintain my current WSL automation script at this repo: https://gitlab.com/ranvir/WSL
 # WSL SETUP
 This is a small set of scripts to bootstrap Ubuntu 20.04 in WSL2. The script has
 some hardcoded values.  
