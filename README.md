@@ -1,4 +1,4 @@
-> NOtE: This project is archived. My current WSL automation script lives [here](https://github.com/iranvir/WSL)
+> Note: This project is archived. My current WSL automation script lives [here](https://github.com/iranvir/WSL)
 # WSL SETUP
 This is a small set of scripts to bootstrap Ubuntu 20.04 in WSL2. The script has
 some hardcoded values.  
